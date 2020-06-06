@@ -18,21 +18,24 @@ body {
 }
 #popup1 {
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 .popup {
   display: flex;
+  position: absolute;
+  /* left: 0; */
+  top: 0;
   display: none;
-  width: 63%;
+  width: 70%;
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
-  position: sticky;
   padding: 10px;
   background-color: rgb(240, 253, 255);
   border: 1px solid rgb(219, 219, 219);
-  border-radius: 20px;
+  border-radius: 5px;
   box-shadow: 1px 1px 4px rgb(212, 212, 212) ;
 }
 .popup-img {
@@ -70,22 +73,21 @@ h3 {
 /* Header */
 .header {
   position: relative;
-  top: 60px;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
-  margin: 0px 20vw 0px 20vw;
+  height: 100px;
+  margin: 50px 20vw 0px 20vw;
 }
 h1 {
-  margin: 1vw;
-  padding: 20px 20px;
+  margin: 0 0 0 2vw;
   font-family: Poiret One;
   font-size: 75px;
   font-weight: lighter;
   color: tomato;
 }
 .menu {
-  margin-left: 2vw;
+  margin-left: 7vw;
   justify-content: space-around;
 }
 .menu-btn {
@@ -122,12 +124,13 @@ h1 {
 }
 #header-title1 {
   width: 20vw;
-  margin: 30px 0px 0px 30vw;
+  margin: 0px 0px 0px 32.5vw;
+  padding: 0;
   font-family: Open Sans;
   color: rgb(110, 110, 110);
 }
 #header-title2 {
-  margin-left: 30vw;
+  margin-left: 32.5vw;
   width: 20vw;
   height: fit-content;
   font-family: Tangerine;
@@ -138,11 +141,68 @@ h1 {
 .main {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 40px;
 }
 .block-1 {
-  border: 1px solid red;
-  margin-top: 10px;
+  display: flex;
+  margin: 10px;
   width: 100%;
-  height: 400px;
-  background-image: url("../src/img/studio.jpg");
+  height: 620px;
+  background-image: url(../img/people-singing.jpeg);
+  background-repeat: no-repeat;
+  align-content: center;
+  background-size: 100%;
+  color: rgb(250, 107, 255);
+  font-family: Monoton;
+  font-size: 300%;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+.title-block-1 {
+  margin: 1px;
+  transform: translate(85px) rotate(-90deg);
+}
+.title-block-2 {
+  color: rgb(110, 255, 255);
+} 
+.block-2 {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 300px;
+  margin: 60px 0;
+  padding: 50px 15vw;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(240, 240, 240);
+}
+.img-b2 {
+  display: flex;
+  
+  width: 20%;
+  height: 100%;
+}
+#img-signup {
+  background-image: url(../img/singer-lady.jpg);
+  background-size: cover;
+  opacity: 0.8;
+}
+.img-b2 a {
+  padding: 0 0 0 12px;
+  font-family: Open Sans;
+  font-size: 180%;
+  text-decoration: none;
+  color: orangered;
+}
+.img-b2 a::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 3px;
+  transform: scaleX(0);
+  background-color: white;
+  transition: all 0.2s;
+}
+.img-b2 a:hover::after {
+  transform: scaleX(1);
 }
