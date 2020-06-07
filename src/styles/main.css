@@ -85,6 +85,16 @@ h1 {
   font-size: 75px;
   font-weight: lighter;
   color: tomato;
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: hinge;
+  animation-duration: 2s;
+}
+h1:hover {
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: hinge;
+  animation-duration: 2s;
 }
 .menu {
   margin-left: 7vw;
@@ -171,16 +181,18 @@ h1 {
   width: 100%;
   height: 300px;
   margin: 60px 0;
-  padding: 50px 15vw;
+  padding: 50px 12vw;
   align-items: center;
   justify-content: space-around;
   background-color: rgb(240, 240, 240);
+  border-bottom: 1px solid rgb(185, 185, 185);
 }
 .img-b2 {
   display: flex;
-  
   width: 20%;
   height: 100%;
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px rgb(201, 201, 201);
 }
 #img-signup {
   background-image: url(../img/singer-lady.jpg);
@@ -188,7 +200,7 @@ h1 {
   opacity: 0.8;
 }
 .img-b2 a {
-  padding: 0 0 0 12px;
+  padding: 0 0 0 14px;
   font-family: Open Sans;
   font-size: 180%;
   text-decoration: none;
@@ -200,9 +212,128 @@ h1 {
   width: 100%;
   height: 3px;
   transform: scaleX(0);
-  background-color: white;
+  background-color: orangered;
   transition: all 0.2s;
 }
 .img-b2 a:hover::after {
   transform: scaleX(1);
+}
+#img-classes {
+  background-image: url(../img/sheets.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid white;
+}
+#img-about {
+  background-image: url(../img/tutor.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: white;
+  background-position: bottom;
+}
+.block-3 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width: 100%;
+  height: 200px;
+  margin: 60px 0;
+  padding: 0px 17vw;
+  align-items: center;
+  background-color: rgb(240, 240, 240);
+  border-top: 1px solid rgb(185, 185, 185);
+  border-bottom: 1px solid rgb(185, 185, 185);
+}
+.wrapper-block-3 {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.info-block {
+  width: 100% ;
+  height: 140px;
+  padding: 20px 0;
+}
+.b-1 p {
+  padding: 0px 30px 0 30px;
+  text-align: justify;
+}
+.b-2 {
+  /* margin-left: 15vw; */
+  /* padding-left: 10.5vw; */
+  font-family: Open Sans;
+  font-size: 200%;
+  font-weight: 600;
+}
+.b-2 p {
+  margin-left: 12vw;
+}
+.b-2 h2 {
+  margin: 0;
+}
+/* Footer */
+.footer {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 250px;
+  margin: 0px 0;
+  padding: 50px 5vw;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(240, 240, 240);
+  border-top: 1px solid rgb(121, 121, 121);
+}
+.info-footer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  height: 100%;
+}
+.info-footer h2 {
+  margin: 0;
+  height: 40px;
+  font-family: Open Sans;
+}
+#b-3, #b-5 {
+  margin: 0;
+  /* padding-left: 3.9vw; */
+  font-family: Open Sans;
+  font-size: 90%;
+  color: rgb(85, 85, 85);
+}
+#b-3 {
+  width: 100%;
+  padding-left: 10.7vw;
+}
+#b-4 {
+  display: inline-block;
+  display: none;
+}
+#b-5 {
+  display: block;
+  width: 100%;
+  margin-left: 1.65vw;
+  list-style-type: none;
+}
+#b-6 {
+  display: inline-block;
+  position: absolute;
+  width: 100vw;
+  left: 0px;
+  bottom: 10px;
+  padding: 12px 30px;
+  background-color: rgb(175, 175, 175);
+  color: white;
+  font-family: Open Sans;
+  font-weight: 100;
+}
+#footer-titles {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 10px;
+  width: 100%;
+  font-size: 160%;
+  font-family: Open Sans;
+  font-weight: 600;
 }
