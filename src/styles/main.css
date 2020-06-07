@@ -161,7 +161,8 @@ h1:hover {
   background-image: url(../img/people-singing.jpeg);
   background-repeat: no-repeat;
   align-content: center;
-  background-size: 100%;
+  background-size: 91%;
+  background-position: 15% 15%;
   color: rgb(250, 107, 255);
   font-family: Monoton;
   font-size: 300%;
@@ -313,7 +314,7 @@ h1:hover {
 #b-5 {
   display: block;
   width: 100%;
-  margin-left: 1.65vw;
+  margin-left: 1.63vw;
   list-style-type: none;
 }
 #b-6 {
