@@ -171,7 +171,7 @@ h1:hover {
   background-repeat: no-repeat;
   align-content: center;
   background-size: 91%;
-  background-position: 15% 15%;
+  background-position: 50% 20%;
   color: rgb(250, 107, 255);
   font-family: Monoton;
   font-size: 300%;
@@ -179,7 +179,7 @@ h1:hover {
   padding: 0px 50px;
 }
 .title-block-1 {
-  margin: 1px;
+  margin: 1vw;
   transform: translate(85px) rotate(-90deg);
 }
 .title-block-2 {
