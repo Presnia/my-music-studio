@@ -270,12 +270,29 @@ h1:hover {
 }
 .box-7 {
   order: 7;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 10px;
+  width: 100%;
+  font-size: 100%;
+  font-family: Open Sans;
+  font-weight: 500;
+  color: rgb(100, 100, 100);
 }
 .box-8 {
   order: 8;
 }
 .box-9 {
   order: 9;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 10px;
+  width: 100%;
+  font-size: 100%;
+  font-family: Open Sans;
+  font-weight: 500;
+  color: rgb(100, 100, 100);
+  list-style-type: none;
 }
 #footer {
   display: inline-block;
