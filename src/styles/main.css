@@ -21,53 +21,62 @@ body {
   align-items: center;
   justify-content: center;
 }
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: none;
+}
 .popup {
   display: flex;
   position: absolute;
-  /* left: 0; */
-  top: 0;
-  display: none;
-  width: 70%;
+  top: 3vh;
+  left: 3vw;
+  width: 16%;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   padding: 10px;
   background-color: rgb(240, 253, 255);
-  border: 1px solid rgb(219, 219, 219);
   border-radius: 5px;
   box-shadow: 1px 1px 4px rgb(212, 212, 212) ;
 }
 .popup-img {
   width: 24px;
   height: 24px;
-  margin-right: 10px;
 }
 .popup h3, popup-img, p {
   margin: 0;
 }
-h3 {
+#have-a-cookies {
   width: 10vw;
   color: orangered;
   display: inline-block;
   margin: 0 0.5rem;
+  font-size: medium;
+  text-align: center;
 
   animation: bounce;
   animation-duration: 2s;
 
 }
 .popup p {
-  max-width: 50%;
+  max-width: 60%;
   padding: 0px 10px 0px 10px;
   margin-right: 20px;
+  text-align: justify;
   color: gray; 
 }
-.close {
+.close-popup {
   text-decoration: none;
   color: tomato;
-  align-self: flex-start;
+  align-self: flex-end;
+  cursor: pointer;
 }
-.close:hover {
+.close-popup:hover {
   color: #06D85F;
 }
 /* Header */
