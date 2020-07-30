@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+#popup1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  /* display: none; */
+}
+
+.popup {
+  display: flex;
+  position: absolute;
+  top: 3vh;
+  left: 3vw;
+  width: 12%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: rgb(240, 253, 255);
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px rgb(212, 212, 212);
+  z-index: 3;
+}
+
+.popup-img {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+
+.popup h3,
+popup-img,
+p {
+  margin: 0;
+}
+
+.popup p {
+  max-width: 60%;
+  padding: 0px 0px 0px 10px;
+  margin-right: 30px;
+  text-align: justify;
+  color: gray;
+}
+
+.close-popup {
+  width: 10%;
+  text-decoration: none;
+  color: tomato;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.close-popup:hover {
+  color: #06D85F;
+}
+
+/* Header */
+.header {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 100px;
+  margin: 40px 20vw 0px 20vw;
+}
+
+h1 {
+  margin: 0 0 0 2vw;
+  font-family: Poiret One;
+  font-size: 75px;
+  font-weight: lighter;
+  color: tomato;
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: hinge;
+  animation-duration: 2s;
+}
+
+h1:hover {
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: hinge;
+  animation-duration: 2s;
+}
+
+.menu {
+  margin-left: 7vw;
+  justify-content: space-around;
+}
+
+.menu-btn {
+  text-decoration: none;
+  padding: 1vw;
+  font-family: Open Sans;
+  font-size: 115%;
+  color: rgb(110, 110, 110);
+}
+
+.btn-3 {
+  width: 100px;
+}
+
+.menu-btn {
+  display: inline-block;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.menu-btn::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  transform: scaleX(0);
+  background-color: red;
+  transition: all 0.2s;
+}
+
+.menu-btn:hover::after {
+  transform: scaleX(1);
+}
+
+.header p {
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#header-title1 {
+  width: 20vw;
+  margin: 0px 0px 0px 32.5vw;
+  padding: 0;
+  font-family: Open Sans;
+  color: rgb(110, 110, 110);
+}
+
+#header-title2 {
+  margin-left: 32.5vw;
+  width: 20vw;
+  height: fit-content;
+  font-family: Tangerine;
+  font-size: xx-large;
+  color: red;
+}
+
+/* Main */
+.main {
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 52px;
+}
+
+.block-1 {
+  display: flex;
+  width: 100%;
+  height: 620px;
+  margin-bottom: 40px;
+  /* background-image: url(../img/people-singing.jpeg);
+  background-repeat: no-repeat; */
+  align-content: center;
+  background-size: 78%;
+  background-position: 44% 20%;
+  font-family: Monoton;
+  font-size: 350%;
+  justify-content: space-between;
+}
+
+.title-block-1 {
+  margin: 1vw;
+  padding-left: 90px;
+  color: rgb(250, 107, 255);
+  transform: translate(85px) rotate(-90deg);
+}
+
+.title-block-2 {
+  margin-right: 3vw;
+  color: rgb(110, 255, 255);
+}

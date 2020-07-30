@@ -90,7 +90,7 @@ body {
   flex-wrap: nowrap;
   align-items: center;
   height: 100px;
-  margin: 50px 20vw 0px 20vw;
+  margin: 40px 20vw 0px 20vw;
 }
 h1 {
   margin: 0 0 0 2vw;
@@ -176,13 +176,14 @@ h1:hover {
   align-content: center;
   background-size: 78%;
   background-position: 44% 20%;
-  color: rgb(250, 107, 255);
   font-family: Monoton;
-  font-size: 300%;
+  font-size: 350%;
   justify-content: space-between;
 }
 .title-block-1 {
-  margin: 2.5vw;
+  margin: 1vw;
+  padding-left: 90px;
+  color: rgb(250, 107, 255);
   transform: translate(85px) rotate(-90deg);
 }
 .title-block-2 {
@@ -197,7 +198,7 @@ h1:hover {
   display: block;
   position: relative;
   width: 100%;
-  height: 50px;
+  height: 60px;
   border-top: 1px solid gray;
 }
 .grid-container {
