@@ -258,16 +258,28 @@ h1:hover {
   margin-bottom: 50px;
 }
 
+.member-name {
+  color: tomato;
+  font-family: Open Sans;
+  font-size: large;
+}
+
 .teacher-text {
   height: 200px;
   width: 95%;
   padding: 20px;
   text-align: justify;
+  color: rgb(110, 110, 110);
   background-color: rgb(240, 240, 240);
   font-family: Open Sans;
   font-size: large;
   overflow: auto;
 }
+
+/* .teacher-text:first-letter {
+  font-family: Open Sans;
+  font-size: 200%;
+} */
 
 .grid-wrapper {
   display: grid;
