@@ -242,6 +242,7 @@ h1:hover {
 
 .member {
   display: flex;
+  /* flex-wrap: wrap; */
 }
 
 .img-about {
@@ -253,7 +254,7 @@ h1:hover {
   display: flex;
   background-color: salmon;
   height: 200px;
-  width: 20%;
+  width: 200px;
   margin-bottom: 50px;
 }
 
