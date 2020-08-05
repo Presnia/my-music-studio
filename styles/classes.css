@@ -207,34 +207,42 @@ h1:hover {
   margin-right: 3vw;
   color: rgb(110, 255, 255);
 }
+
 .basic-image {
   display: flex;
   position: absolute;
   margin: auto;
-  width: 100%;
+  margin-left: 10vw;
+  width: 90%;
   z-index: -1;
 }
+
 #basic-img {
   margin: 3vw auto;
 }
+
+.invisible {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 50px;
+  border-top: 1px solid gray;
+}
+
 .classes-info {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
 }
+
 .wrapper-classes {
   display: flex;
   flex-wrap: wrap;
   width: 60vw;
 }
-.invisible {
-  display: block;
-  position: relative;
-  width: 100%;
-  height: 60px;
-  border-top: 1px solid gray;
-}
+
 #classes {
   height: 150px;
   width: 10vw;
@@ -245,12 +253,14 @@ h1:hover {
   font-family: Open Sans;
   font-size: larger;
 }
+
 .classes-text {
   margin-top: 40px;
   margin-bottom: 40px;
   font-family: Open Sans;
   font-size: large;
 }
+
 #vocal, #computer, #piano, #aesthetic, #aural {
   height: 150px;
   width: 100%;
@@ -268,3 +278,4 @@ h1:hover {
   color: white;
   font-family: Open Sans;
   font-weight: 100;
+}

@@ -205,3 +205,78 @@ h1:hover {
   margin-right: 3vw;
   color: rgb(110, 255, 255);
 }
+.basic-image {
+  display: flex;
+  position: absolute;
+  margin: auto;
+  margin-left: 5vw;
+  width: 95%;
+  z-index: -1;
+}
+
+#basic-img {
+  margin: auto;
+}
+
+.invisible {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 50px;
+  border-top: 1px solid gray;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.wrapper-about {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60vw;
+}
+
+.member {
+  display: flex;
+}
+
+.img-about {
+  max-width: 200px;
+  width: auto;
+}
+
+.member-img {
+  display: flex;
+  background-color: salmon;
+  height: 200px;
+  width: 20%;
+  margin-bottom: 50px;
+}
+
+.teacher-text {
+  height: 200px;
+  width: 95%;
+  padding: 20px;
+  text-align: justify;
+  background-color: rgb(240, 240, 240);
+  font-family: Open Sans;
+  font-size: large;
+  overflow: auto;
+}
+
+#footer {
+  display: inline-block;
+  position: absolute;
+  width: 100vw;
+  left: 0px;
+  bottom: -42px;
+  padding: 12px 30px;
+  background-color: rgb(175, 175, 175);
+  color: white;
+  font-family: Open Sans;
+  font-weight: 100;
+}
